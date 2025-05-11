@@ -16,3 +16,6 @@ function FindProxyForURL(url, host) {
   }
   return "DIRECT";
 }
+
+
+// should disable chrome://flags/#enable-quic
