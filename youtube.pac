@@ -7,7 +7,8 @@ function FindProxyForURL(url, host) {
     "*.googlevideo.com",// the actual video chunks
     "*.ytimg.com",       // thumbnails, player assets, etc.
     "*.coupangplay.com",
-    "play.coupang.com"
+    "play.coupang.com",
+    "*.play.coupang.com"
   ];
   var localServer = "SOCKS5 localhost:8080";
 
