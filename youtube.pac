@@ -5,7 +5,9 @@ function FindProxyForURL(url, host) {
     "*.youtube.com",    // www.youtube.com, m.youtube.com, etc.
     "youtu.be",         // short URLs
     "*.googlevideo.com",// the actual video chunks
-    "*.ytimg.com"       // thumbnails, player assets, etc.
+    "*.ytimg.com",       // thumbnails, player assets, etc.
+    "*.coupangplay.com",
+    "play.coupang.com"
   ];
   var localServer = "SOCKS5 localhost:8080";
 
