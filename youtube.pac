@@ -7,6 +7,7 @@ function FindProxyForURL(url, host) {
     "*.googlevideo.com",// the actual video chunks
     "*.ytimg.com",       // thumbnails, player assets, etc.
     "*.coupangplay.com",
+    "coupangplay.com",
     "play.coupang.com",
     "*.play.coupang.com"
   ];
